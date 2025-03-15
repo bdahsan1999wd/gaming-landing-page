@@ -1,0 +1,26 @@
+/* ------------------------------Responsive Media Query Added------------------------------ */
+
+/* --------------------Mobile/Small Device Responsive Added-------------------- */
+@media only screen and (max-width: 576px) {
+  /* ----------Navbar Mobile/Small Device Responsive Added---------- */
+  nav {
+    flex-direction: column;
+  }
+  .nav-right {
+    flex-direction: column;
+  }
+  .nav-links ul {
+    flex-direction: column;
+  }
+}
+
+/* --------------------Tablet/Medium Device Responsive Added-------------------- */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  /* ----------Navbar Tablet/Medium Device Responsive Added---------- */
+  nav {
+    flex-direction: column;
+  }
+  .nav-right {
+    flex-direction: column;
+  }
+}
