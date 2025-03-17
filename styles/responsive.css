@@ -3,6 +3,9 @@
 /* --------------------Mobile/Small Device Responsive Added-------------------- */
 @media only screen and (max-width: 576px) {
   /* ----------Navbar Mobile/Small Device Responsive Added---------- */
+  .nav-container {
+    box-shadow: none;
+  }
   nav {
     flex-direction: column;
   }
@@ -12,15 +15,68 @@
   .nav-links ul {
     flex-direction: column;
   }
+
+  /* ----------Banner Section Mobile/Small Device Responsive Added---------- */
+  .banner-section {
+    background-image: none;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-left {
+    background-image: url(../assets/images/group-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+  .banner-info {
+    padding: 90px;
+  }
+  .banner-button {
+    display: flex;
+  }
+  .banner-image {
+    padding: 50px 50px 10px 50px;
+  }
 }
 
 /* --------------------Tablet/Medium Device Responsive Added-------------------- */
 @media only screen and (min-width: 577px) and (max-width: 992px) {
   /* ----------Navbar Tablet/Medium Device Responsive Added---------- */
+  .nav-container {
+    box-shadow: none;
+  }
   nav {
     flex-direction: column;
   }
   .nav-right {
     flex-direction: column;
+  }
+
+  /* ----------Banner Section Tablet/Medium Device Responsive Added---------- */
+  .banner-section {
+    background-image: none;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-left {
+    background-image: url(../assets/images/group-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .banner-info {
+    padding: 100px;
+  }
+  .banner-button {
+    display: flex;
+  }
+  .banner-image {
+    padding: 50px 50px 10px 50px;
   }
 }
