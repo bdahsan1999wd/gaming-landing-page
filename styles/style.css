@@ -28,7 +28,6 @@ body {
   background-clip: text;
   color: transparent;
 }
-
 /* -------------------------Shared Styles Ends Here-------------------------*/
 
 header {
@@ -39,13 +38,12 @@ header {
 
 /* -----Navigation Bar Styles Added----- */
 .nav-container {
-  /* border: 1px solid rgb(0, 255, 128); */
   max-width: 1920px;
   margin: 0 auto;
   box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.1);
 }
 nav {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   max-width: 1440px;
   margin: 0 auto;
   align-items: center;
@@ -111,14 +109,13 @@ nav {
 
 /* ----------Banner Section Styles Added---------- */
 .banner-section {
-  /* border: 1px solid blue; */
   max-width: 1920px;
   margin: 0 auto;
   background-image: url(../assets/images/group-1.png);
   background-repeat: no-repeat;
 }
 .banner-container {
-  /* border: 1px solid green; */
+  border: 1px solid green;
   max-width: 1440px;
   margin: 0 auto;
   align-items: center;
@@ -162,7 +159,8 @@ nav {
   background-color: #4ec5f7;
 }
 .banner-btn1,
-.banner-btn2 {
+.banner-btn2,
+.gamer-btn {
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 100%;
@@ -174,9 +172,56 @@ nav {
 
 /* -----Banner Right Image Styles Added----- */
 .banner-image {
-  /* border: 1px solid aqua; */
   max-width: 720px;
 }
 .banner-image img {
   width: 100%;
+}
+
+/* ----------Gamer Section Styles Added---------- */
+.gamer-section {
+  border: 1px solid purple;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.gamer-container {
+  border: 1px solid blue;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+}
+
+/* ----------Gamer Section Left Items Styles Added---------- */
+.gamer-image img {
+  width: 100%;
+}
+
+/* ----------Gamer Section Right Items Styles Added---------- */
+.gamer-info h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 24px;
+}
+.gamer-info p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+.gamer-btn {
+  background-color: #ff42a5;
+  margin-bottom: 24px;
+}
+.gamer-info h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 45px;
+}
+.gamer-info h4 span {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 45px;
 }

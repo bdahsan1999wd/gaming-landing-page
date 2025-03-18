@@ -39,6 +39,17 @@
   .banner-image {
     padding: 50px 50px 10px 50px;
   }
+  /* ----------Gamer Section Mobile/Small Device Responsive Added---------- */
+  .gamer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .gamer-image img {
+    width: 90%;
+  }
+  .gamer-right {
+    margin-top: 50px;
+  }
 }
 
 /* --------------------Tablet/Medium Device Responsive Added-------------------- */
@@ -78,5 +89,16 @@
   }
   .banner-image {
     padding: 50px 50px 10px 50px;
+  }
+  /* ----------Gamer Section Tablet/Medium Device Responsive Added---------- */
+  .gamer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .gamer-image img {
+    width: 90%;
+  }
+  .gamer-right {
+    margin-top: 50px;
   }
 }
