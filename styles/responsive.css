@@ -50,6 +50,16 @@
   .gamer-right {
     margin-top: 50px;
   }
+  /* ----------Online Games Section Mobile/Small Device Responsive Added---------- */
+  .online-games-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .online-games-card {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
 }
 
 /* --------------------Tablet/Medium Device Responsive Added-------------------- */
@@ -90,6 +100,7 @@
   .banner-image {
     padding: 50px 50px 10px 50px;
   }
+
   /* ----------Gamer Section Tablet/Medium Device Responsive Added---------- */
   .gamer-container {
     flex-direction: column;
@@ -100,5 +111,15 @@
   }
   .gamer-right {
     margin-top: 50px;
+  }
+
+  /* ----------Online Games Section Tablet/Medium Device Responsive Added---------- */
+  .online-games-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: 0 auto;
+  }
+  .online-games-card {
+    margin-bottom: 30px;
   }
 }
