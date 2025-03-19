@@ -35,6 +35,9 @@
   }
   .banner-button {
     display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
   }
   .banner-image {
     padding: 50px 50px 10px 50px;
@@ -97,6 +100,18 @@
     right: -40px;
     bottom: -75px;
   }
+  /* ----------Careers Section Mobile/Small Device Responsive Added---------- */
+  .careers-container {
+    flex-direction: column;
+  }
+  .careers-content {
+    margin: 120px 0px 120px 0px;
+    padding: 5px;
+  }
+  .careers-container-image {
+    padding: 5px;
+    margin-bottom: 120px;
+  }
 }
 
 /* --------------------Tablet/Medium Device Responsive Added-------------------- */
@@ -152,8 +167,8 @@
 
   /* ----------Online Games Section Tablet/Medium Device Responsive Added---------- */
   .online-games-card-container {
-    grid-template-columns: repeat(2, 1fr);
-    width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+    width: 60%;
     margin: 0 auto;
   }
   .online-games-card {
@@ -191,5 +206,15 @@
     height: 340px;
     right: -120px;
     bottom: -90px;
+  }
+  /* ----------Careers Section Tablet/Medium Device Responsive Added---------- */
+  .careers-container {
+    flex-direction: column;
+  }
+  .careers-content {
+    margin: 120px 0px 120px 0px;
+  }
+  .careers-container-image {
+    margin-bottom: 120px;
   }
 }

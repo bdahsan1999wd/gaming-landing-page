@@ -172,7 +172,8 @@ nav {
 }
 .banner-btn1,
 .banner-btn2,
-.gamer-btn {
+.gamer-btn,
+.position-btn {
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 100%;
@@ -350,7 +351,7 @@ nav {
 .play-games-left {
   position: relative;
 }
-.play-games img {
+.play-games-image img {
   width: 100%;
 }
 .play-games-left .image-8 {
@@ -364,4 +365,48 @@ nav {
 /* -----Play Games Section Right Items Styles Added----- */
 .play-games-info h2 {
   line-height: 60px;
+}
+
+/* ----------Careers Section Styles Added---------- */
+.careers-section {
+  border: 1px solid blue;
+  max-width: 1920px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+.careers-container {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 66, 165) 13.134%,
+    rgb(255, 66, 165) 87.942%
+  );
+}
+.careers-content {
+  margin-left: 240px;
+}
+.careers-content h3 {
+  color: rgb(255, 255, 255);
+}
+.careers-content p {
+  color: rgb(255, 255, 255);
+}
+.careers-location {
+  justify-content: space-between;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 40px;
+  margin: 32px 0px 40px 0px;
+}
+
+/* -----Careers Button Styles Added----- */
+.position-btn {
+  background-color: rgb(255, 255, 255);
+  color: #ff42a5;
+}
+
+.careers-container-image img {
+  width: 100%;
 }
