@@ -290,3 +290,42 @@ nav {
 .card-3 img:hover + .watch-now {
   display: block;
 }
+
+/* ----------Play Instantly Section Styles Added---------- */
+.play-instantly-section {
+  border: 1px solid purple;
+  max-width: 1920px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+.play-instantly-container {
+  border: 1px solid blue;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+}
+
+/* -----Gamer Section right Items Styles Added----- */
+.play-right {
+  position: relative;
+}
+.play-image img {
+  width: 100%;
+}
+.play-right .image-6 {
+  position: absolute;
+  width: 318.5px;
+  height: 365.08px;
+  left: -150px;
+  bottom: -70px;
+}
+
+/* -----Gamer Section left Items Styles Added----- */
+.play-info {
+  margin-left: 187px;
+}
+.play-info h2 {
+  line-height: 60px;
+}
