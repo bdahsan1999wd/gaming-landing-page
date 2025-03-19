@@ -307,7 +307,7 @@ nav {
   text-align: right;
 }
 
-/* -----Gamer Section right Items Styles Added----- */
+/* -----Play Section right Items Styles Added----- */
 .play-right {
   position: relative;
 }
@@ -322,10 +322,46 @@ nav {
   bottom: -70px;
 }
 
-/* -----Gamer Section left Items Styles Added----- */
+/* -----Play Section left Items Styles Added----- */
 .play-info {
   margin-left: 187px;
 }
 .play-info h2 {
+  line-height: 60px;
+}
+
+/* ----------Play Games Section Styles Added---------- */
+.play-games-section {
+  border: 1px solid purple;
+  max-width: 1920px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+.play-games-container {
+  border: 1px solid red;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+}
+
+/* -----Play Games Section Left Items Styles Added----- */
+.play-games-left {
+  position: relative;
+}
+.play-games img {
+  width: 100%;
+}
+.play-games-left .image-8 {
+  position: absolute;
+  width: 318.5px;
+  height: 365.08px;
+  right: -135px;
+  bottom: -120px;
+}
+
+/* -----Play Games Section Right Items Styles Added----- */
+.play-games-info h2 {
   line-height: 60px;
 }

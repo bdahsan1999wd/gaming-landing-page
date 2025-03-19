@@ -78,6 +78,25 @@
     left: -36px;
     bottom: -30px;
   }
+
+  /* ----------Play Games Section Mobile/Small Device Responsive Added---------- */
+  .play-games-container {
+    flex-direction: column-reverse;
+    width: 80%;
+    text-align: center;
+  }
+  .play-games-info {
+    margin-bottom: 70px;
+  }
+  .play-games-left img {
+    width: 90%;
+  }
+  .play-games-left .image-8 {
+    width: 170px;
+    height: 220px;
+    right: -40px;
+    bottom: -75px;
+  }
 }
 
 /* --------------------Tablet/Medium Device Responsive Added-------------------- */
@@ -155,5 +174,22 @@
     height: 340px;
     left: -130px;
     bottom: -60px;
+  }
+
+  /* ----------Play Games Section Tablet/Medium Device Responsive Added---------- */
+  .play-games-container {
+    flex-direction: column-reverse;
+    width: 80%;
+    text-align: center;
+  }
+  .play-games-info {
+    margin-bottom: 70px;
+  }
+
+  .play-games-left .image-8 {
+    width: 300px;
+    height: 340px;
+    right: -120px;
+    bottom: -90px;
   }
 }
