@@ -43,7 +43,6 @@ body {
 /* -------------------------Shared Styles Ends Here-------------------------*/
 
 header {
-  border: 1px solid red;
   max-width: 1920px;
   margin: 0 auto;
 }
@@ -55,7 +54,6 @@ header {
   box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.1);
 }
 nav {
-  border: 1px solid red;
   max-width: 1440px;
   margin: 0 auto;
   align-items: center;
@@ -127,7 +125,6 @@ nav {
   background-repeat: no-repeat;
 }
 .banner-container {
-  border: 1px solid green;
   max-width: 1440px;
   margin: 0 auto;
   align-items: center;
@@ -194,12 +191,10 @@ nav {
 
 /* ----------Gamer Section Styles Added---------- */
 .gamer-section {
-  border: 1px solid purple;
   max-width: 1920px;
   margin: 0 auto;
 }
 .gamer-container {
-  border: 1px solid blue;
   max-width: 1440px;
   margin: 0 auto;
   justify-content: space-between;
@@ -233,14 +228,12 @@ nav {
 
 /* ----------Online Games Section Styles Added---------- */
 .online-games-section {
-  border: 1px solid salmon;
   max-width: 1920px;
   margin: 0 auto;
   margin-top: 120px;
   margin-bottom: 120px;
 }
 .online-games-container {
-  border: 1px solid rebeccapurple;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -255,6 +248,7 @@ nav {
 }
 .online-games-card {
   position: relative;
+  cursor: pointer;
 }
 .online-games-card img {
   width: 100%;
@@ -294,13 +288,11 @@ nav {
 
 /* ----------Play Instantly Section Styles Added---------- */
 .play-instantly-section {
-  border: 1px solid purple;
   max-width: 1920px;
   margin: 0 auto;
   margin-bottom: 200px;
 }
 .play-instantly-container {
-  border: 1px solid blue;
   max-width: 1440px;
   margin: 0 auto;
   justify-content: space-between;
@@ -333,13 +325,11 @@ nav {
 
 /* ----------Play Games Section Styles Added---------- */
 .play-games-section {
-  border: 1px solid purple;
   max-width: 1920px;
   margin: 0 auto;
   margin-bottom: 200px;
 }
 .play-games-container {
-  border: 1px solid red;
   max-width: 1440px;
   margin: 0 auto;
   justify-content: space-between;
@@ -369,7 +359,6 @@ nav {
 
 /* ----------Careers Section Styles Added---------- */
 .careers-section {
-  border: 1px solid blue;
   max-width: 1920px;
   margin: 0 auto;
   margin-bottom: 120px;
@@ -413,13 +402,11 @@ nav {
 
 /* ----------Category Section Styles Added---------- */
 .category-section {
-  border: 1px solid red;
   max-width: 1920px;
   margin: 0 auto;
   margin-bottom: 120px;
 }
 .category-container {
-  border: 1px solid blue;
   max-width: 1440px;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -446,14 +433,12 @@ nav {
 
 /* ----------Footer Section Styles Added---------- */
 .footer-section {
-  border: 1px solid red;
   max-width: 1920px;
   margin: 0 auto;
   padding: 1px;
   background-color: rgb(11, 2, 35);
 }
 .footer-container {
-  border: 1px solid greenyellow;
   max-width: 1440px;
   margin: 0 auto;
   margin-top: 120px;
@@ -494,7 +479,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 60px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   color: rgba(255, 255, 255, 0.6);
   font-size: 1rem;
   font-weight: 500;
